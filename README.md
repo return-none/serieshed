@@ -1,4 +1,4 @@
-# serieshed
+# serieshed [![CodeQL](https://github.com/return-none/serieshed/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/return-none/serieshed/actions/workflows/codeql-analysis.yml)
 
 Project for fun with React, Redux, Styled components, and of course Typescript
 
