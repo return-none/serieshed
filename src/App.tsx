@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import styled from 'styled-components';
 
@@ -22,7 +22,7 @@ const Main = styled.main`
 `;
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
     <Navbar />
     <Main>
       <Routes>
@@ -30,7 +30,7 @@ const App = () => (
         <Route path="/details/:id" element={<Details />} />
       </Routes>
     </Main>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default App;
